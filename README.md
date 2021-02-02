@@ -5,6 +5,7 @@ This project is created for Goldbelly, utilizing their url shortening API. The a
 1. Download the repo
 2. Create a `.env.local` file in the main directory
 3. Within the `.env.local` file, enter `REACT_APP_GB_ACCESS_TOKEN='paste_working_access_token_here'` replacing `paste_working_access_token_here` with a working access token.
+4. Run `npm start` in a terminal from the main directory
 
 To get a shortened url, simply type in the url into the top input. If you want you can provide an optional slug to be used for shortening. Click submit, and your shortened URL will appear on the table below. If at any point you wish to delete the shortened URL, simply click the delete button next to the url.
 
